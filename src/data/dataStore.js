@@ -1,68 +1,49 @@
-export const settings = {
-  columnCreatorText: 'Add new column',
-  cardCreatorText: 'Add new card',
-  creator: {
-    buttonOK: 'OK',
-    buttonCancel: 'Cancel',
-    defaultText: 'Add new item',
-  },
-  defaultListDescription: '<p>I can do all the things!!!</p>',
-  defaultColumnIcon: 'list-alt',
-};
+
 
 export const pageContents = {
-  title: 'My first React app',
-  subtitle: 'A simple to-do app, with lists, columns and cards',
+  title: 'POWER SOURCE',
+  subtitle: 'May the Force be with you',
 };
 
 export const listData = {
-  title: 'Things to do <sup>soon!</sup>',
-  description: 'Interesting things I want to check out!',
-  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  title: 'My experience vs my skills. ',
+
+  image: 'https://cdn1.imggmi.com/uploads/2019/11/29/82925502c6b4f382505479bb6b576727-full.jpg',
   columns: [
     {
       key: 0,
-      title: 'Books',
-      icon: 'book',
+      title: 'The Phantom Menace',
+     
       cards: [
         {
           key: 0,
-          title: 'This Is Going to Hurt',
+          title: '"FEAR IS THE PATH TO THE DARK SIDE...FEAR LEADS TO ANGER...ANGER LEADS TO HATE...HATE LEADS TO SUFFERING."',
         },
-        {
-          key: 1,
-          title: 'Interpreter of Maladies',
-        },
+       
       ],
     },
     {
       key: 1,
-      title: 'Movies',
-      icon: 'film',
+      title: 'THE EMPIRE STRIKES BACK',
+      
       cards: [
         {
           key: 0,
-          title: 'Harry Potter',
+          title: '"LUMINOUS BEINGS ARE WE...NOT THIS CRUDE MATTER."',
         },
-        {
-          key: 1,
-          title: 'Star Wars',
-        },
+    
       ],
     },
     {
       key: 2,
-      title: 'Games',
-      icon: 'gamepad',
+      title: 'THE EMPIRE STRIKES BACK',
+     
       cards: [
         {
           key: 0,
-          title: 'The Witcher',
+          title: '“DO. OR DO NOT. THERE IS NO TRY.”',
         },
-        {
-          key: 1,
-          title: 'Skyrim',
-        },
+       
       ],
     },
   ],
