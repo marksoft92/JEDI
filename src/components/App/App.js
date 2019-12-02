@@ -17,10 +17,11 @@ const App = () => (
         atActive={{ opacity: 1 }}
         className={styles.switchWrapper}
       >
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' component={HomeApp} />
         <Route exact path='/status' component={Status} />
     
       </AnimatedSwitch>
     </MainLayout>
   </BrowserRouter>
 );
+export default App;

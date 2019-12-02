@@ -7,7 +7,7 @@ class HomeApp extends React.Component {
   render() {
     return (
      <section>
-       <Header/>
+       
       <Home />
       <Footer />
      </section>
