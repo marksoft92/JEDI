@@ -1,11 +1,25 @@
 import React from 'react';
 import Container from '../Container/Container';
+import Footer from '../Footer/Footer';
+import styles from '../Status/Status.scss';
 
 const Status = () => (
-  <Container>
-    <h2>Info</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </Container>
+  <section >    <h2 className={styles.title}>Total Power :</h2>
+  <div className={styles.component}>
+   <div className={styles.cards}>
+       <img src='src/img/light.png'></img>
+        <h3 className={styles.title}>Kw</h3>    
+   </div>
+   <div className={styles.cards}>
+       <img src='src/img/milenium.png'></img>
+        <h3 className={styles.title}>Kw</h3>
+   </div>
+   </div>
+    <Footer/>
+    </section>
+ 
+ 
+
 );
 
 export default Status;
