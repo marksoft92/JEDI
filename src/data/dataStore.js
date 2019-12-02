@@ -8,7 +8,7 @@ export const pageContents = {
 export const listData = {
   title: 'My experience vs my skills. ',
 
-  image: 'https://cdn1.imggmi.com/uploads/2019/11/29/82925502c6b4f382505479bb6b576727-full.jpg',
+  image: 'https://i.ibb.co/HXk47jf/yodasmall.jpg',
   columns: [
     {
       key: 0,
