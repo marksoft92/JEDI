@@ -16,10 +16,15 @@ state={
 
 componentDidMount() {
 const API=`https://challenge.codetain.com/api/v1/charging_status?`
+setInterval(() => {
+  fetch(API)
+.then(res => res.json())
+.then(json => this.setState({ power: json.charging_status}));
 
+}, 10000);
 fetch(API)
 .then(res => res.json())
-.then(json => this.setState({ power: json}));
+.then(json => this.setState({ power: json.charging_status}));
 
 }
   
