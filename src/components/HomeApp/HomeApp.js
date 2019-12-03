@@ -6,11 +6,11 @@ import Footer from '../Footer/Footer';
 class HomeApp extends React.Component {
   render() {
     return (
-     <section>
-       
-      <Home />
-      <Footer />
-     </section>
+      <section>
+
+        <Home />
+        <Footer />
+      </section>
     )
   }
 }

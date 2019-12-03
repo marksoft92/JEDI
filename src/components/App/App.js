@@ -1,4 +1,4 @@
-;import React from 'react';
+; import React from 'react';
 import HomeApp from '../HomeApp/HomeApp';
 import Status from '../Status/Status';
 
@@ -6,7 +6,7 @@ import styles from './App.scss';
 
 import MainLayout from '../MainLayout/MainLayout';
 
-import {BrowserRouter,  Route} from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 import Power from '../Power/Power';
 
@@ -21,7 +21,7 @@ const App = () => (
       >
         <Route exact path='/' component={HomeApp} />
         <Route exact path='/status' component={Power} />
-    
+
       </AnimatedSwitch>
     </MainLayout>
   </BrowserRouter>
