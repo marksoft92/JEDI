@@ -15,14 +15,7 @@
   overflow: auto;
 }
 
-.creator {
-  width: calc(33% - 12px);
-  margin: $base-size auto 0;
 
-  input {
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
-  }
-}
 
 @media (max-width: 767px) {
 
@@ -31,7 +24,5 @@
     overflow: hidden;
   }
 
-  .creator {
-    width: 100%;
-  }
+ 
 }
